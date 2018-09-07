@@ -6,8 +6,8 @@ RUN mkdir -p /tmp/download && \
  rm -rf /tmp/download/docker/dockerd && \
  mv /tmp/download/docker/docker* /usr/local/bin/ && \
  rm -rf /tmp/download && \
- groupadd -g 9660 docker && \
- groupadd -g 9660 staff && \
+ groupadd -g 9661 docker && \
+ groupadd -g 9662 staff && \
  usermod -aG staff,docker jenkins
 
 user jenkins
